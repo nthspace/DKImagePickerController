@@ -61,6 +61,7 @@
 		9CEFAFF3215A0DAB00FCF894 /* DKAssetGroupListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFAFC0215A0DAB00FCF894 /* DKAssetGroupListVC.swift */; };
 		A8B519ED2293CE2B0091E5B3 /* DKAssetGroupCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8B519EC2293CE2B0091E5B3 /* DKAssetGroupCell.xib */; };
 		A8B519EF2293D67F0091E5B3 /* DKAssetGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B519EE2293D67F0091E5B3 /* DKAssetGroupCell.swift */; };
+		A8F4C3CD2294251900F8A4AA /* DKAssetGroupCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8B519EC2293CE2B0091E5B3 /* DKAssetGroupCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -440,6 +441,7 @@
 				9C90C0FB215F895300314C91 /* es.lproj in Resources */,
 				9C565E21216B2F4A00A16B22 /* Images.xcassets in Resources */,
 				9C90C0FD215F895300314C91 /* en.lproj in Resources */,
+				A8F4C3CD2294251900F8A4AA /* DKAssetGroupCell.xib in Resources */,
 				9C90C0F6215F895300314C91 /* zh-Hant.lproj in Resources */,
 				9C90C0F9215F895300314C91 /* pt_BR.lproj in Resources */,
 				9C90C0F3215F895300314C91 /* nb-NO.lproj in Resources */,
