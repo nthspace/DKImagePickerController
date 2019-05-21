@@ -59,6 +59,8 @@
 		9CEFAFF1215A0DAB00FCF894 /* DKAssetGroupDetailBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFAFBE215A0DAB00FCF894 /* DKAssetGroupDetailBaseCell.swift */; };
 		9CEFAFF2215A0DAB00FCF894 /* DKAssetGroupDetailImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFAFBF215A0DAB00FCF894 /* DKAssetGroupDetailImageCell.swift */; };
 		9CEFAFF3215A0DAB00FCF894 /* DKAssetGroupListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFAFC0215A0DAB00FCF894 /* DKAssetGroupListVC.swift */; };
+		A8B519ED2293CE2B0091E5B3 /* DKAssetGroupCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8B519EC2293CE2B0091E5B3 /* DKAssetGroupCell.xib */; };
+		A8B519EF2293D67F0091E5B3 /* DKAssetGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B519EE2293D67F0091E5B3 /* DKAssetGroupCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -140,6 +142,8 @@
 		9CEFAFBE215A0DAB00FCF894 /* DKAssetGroupDetailBaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKAssetGroupDetailBaseCell.swift; sourceTree = "<group>"; };
 		9CEFAFBF215A0DAB00FCF894 /* DKAssetGroupDetailImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKAssetGroupDetailImageCell.swift; sourceTree = "<group>"; };
 		9CEFAFC0215A0DAB00FCF894 /* DKAssetGroupListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKAssetGroupListVC.swift; sourceTree = "<group>"; };
+		A8B519EC2293CE2B0091E5B3 /* DKAssetGroupCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKAssetGroupCell.xib; sourceTree = "<group>"; };
+		A8B519EE2293D67F0091E5B3 /* DKAssetGroupCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKAssetGroupCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -307,6 +311,8 @@
 				9CEFAFBB215A0DAB00FCF894 /* DKAssetGroupDetailCameraCell.swift */,
 				9CEFAFBC215A0DAB00FCF894 /* DKAssetGroupDetailVideoCell.swift */,
 				9CEFAFBD215A0DAB00FCF894 /* DKAssetGroupCellItemProtocol.swift */,
+				A8B519EE2293D67F0091E5B3 /* DKAssetGroupCell.swift */,
+				A8B519EC2293CE2B0091E5B3 /* DKAssetGroupCell.xib */,
 				9CEFAFBE215A0DAB00FCF894 /* DKAssetGroupDetailBaseCell.swift */,
 				9CEFAFBF215A0DAB00FCF894 /* DKAssetGroupDetailImageCell.swift */,
 			);
@@ -452,6 +458,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C90C079215F6B3300314C91 /* DKImagePickerController.bundle in Resources */,
+				A8B519ED2293CE2B0091E5B3 /* DKAssetGroupCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +484,7 @@
 				9CEFAFE2215A0DAB00FCF894 /* DKAsset+Export.swift in Sources */,
 				9CEFAFEC215A0DAB00FCF894 /* DKAssetGroupGridLayout.swift in Sources */,
 				9CEFAFDF215A0DAB00FCF894 /* DKImageDataManager.swift in Sources */,
+				A8B519EF2293D67F0091E5B3 /* DKAssetGroupCell.swift in Sources */,
 				9CEFAFEB215A0DAB00FCF894 /* DKPermissionView.swift in Sources */,
 				9C723C15215DC73D0012377B /* DKImageExtensionPhotoCropper.swift in Sources */,
 				9CEFAFEE215A0DAB00FCF894 /* DKAssetGroupDetailCameraCell.swift in Sources */,
@@ -682,7 +690,7 @@
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Vendors/CLImageEditor/CLImageEditor/**";
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
 				MODULEMAP_FILE = "";
@@ -714,7 +722,7 @@
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Vendors/CLImageEditor/CLImageEditor/**";
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
 				MODULEMAP_FILE = "";
