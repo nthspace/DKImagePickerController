@@ -82,9 +82,8 @@ class DKAssetGroupListVC: UITableViewController, DKImageGroupDataManagerObserver
 
         self.imagePickerController.UIDelegate.imagePickerControllerPrepareGroupListViewController(self)
 
-        let cellType = self.imagePickerController.UIDelegate.imagePickerControllerGroupCell()
-        self.tableView.register(cellType, forCellReuseIdentifier: DKImageGroupCellIdentifier)
-        self.tableView.rowHeight = cellType.preferredHeight
+        self.tableView.register(UINib(nibName: "DKAssetGroupCell", bundle: nil), forCellReuseIdentifier: DKImageGroupCellIdentifier)
+        self.tableView.rowHeight = DKAssetGroupCell.preferredHeight
         self.tableView.separatorStyle = .none
 
         self.clearsSelectionOnViewWillAppear = false
