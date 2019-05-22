@@ -153,6 +153,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C8D707479581CCD7DC6FEB67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -332,6 +339,7 @@
 			buildConfigurationList = 9C90C076215F69A400314C91 /* Build configuration list for PBXNativeTarget "DKImagePickerControllerBundle" */;
 			buildPhases = (
 				9C90C071215F69A400314C91 /* Resources */,
+				C8D707479581CCD7DC6FEB67 /* Frameworks */,
 			);
 			buildRules = (
 				9C90C0D1215F827B00314C91 /* PBXBuildRule */,
