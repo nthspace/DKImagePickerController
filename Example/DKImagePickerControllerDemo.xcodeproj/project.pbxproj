@@ -26,7 +26,17 @@
 		9CD130051C144ED800AB5E2B /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CD130041C144ED800AB5E2B /* Photos.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		9CDC7BF71FE59233008867C8 /* CustomCameraExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDC7BF61FE59233008867C8 /* CustomCameraExtension.swift */; };
 		9CE8A91E21786E7000E06D08 /* ReloadUIDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE8A91D21786E7000E06D08 /* ReloadUIDelegate.swift */; };
-		9CF72B161B8F073400238B9A /* DKImagePickerControllerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF72B151B8F073400238B9A /* DKImagePickerControllerDemoTests.swift */; };
+		A8F4C4792295C05A00F8A4AA /* CropViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F4C4752295C05A00F8A4AA /* CropViewController.framework */; };
+		A8F4C47A2295C05A00F8A4AA /* DKPhotoGallery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F4C4762295C05A00F8A4AA /* DKPhotoGallery.framework */; };
+		A8F4C47B2295C05A00F8A4AA /* DKCamera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F4C4772295C05A00F8A4AA /* DKCamera.framework */; };
+		A8F4C47C2295C05A00F8A4AA /* TOCropViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F4C4782295C05A00F8A4AA /* TOCropViewController.framework */; };
+		A8F4C47D2295C06200F8A4AA /* CropViewController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8F4C4752295C05A00F8A4AA /* CropViewController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8F4C47E2295C06200F8A4AA /* DKCamera.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8F4C4772295C05A00F8A4AA /* DKCamera.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8F4C47F2295C06200F8A4AA /* DKPhotoGallery.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8F4C4762295C05A00F8A4AA /* DKPhotoGallery.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8F4C4802295C06200F8A4AA /* TOCropViewController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8F4C4782295C05A00F8A4AA /* TOCropViewController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8F4C4882295C1FE00F8A4AA /* DKImagePickerController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F4C4872295C1FE00F8A4AA /* DKImagePickerController.framework */; };
+		A8F4C4892295C1FE00F8A4AA /* DKImagePickerController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F4C4872295C1FE00F8A4AA /* DKImagePickerController.framework */; };
+		A8F4C48A2295C20600F8A4AA /* DKImagePickerController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8F4C4872295C1FE00F8A4AA /* DKImagePickerController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +56,11 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				A8F4C47D2295C06200F8A4AA /* CropViewController.framework in Embed Frameworks */,
+				A8F4C48A2295C20600F8A4AA /* DKImagePickerController.framework in Embed Frameworks */,
+				A8F4C47E2295C06200F8A4AA /* DKCamera.framework in Embed Frameworks */,
+				A8F4C47F2295C06200F8A4AA /* DKPhotoGallery.framework in Embed Frameworks */,
+				A8F4C4802295C06200F8A4AA /* TOCropViewController.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,8 +90,11 @@
 		9CDC7BF61FE59233008867C8 /* CustomCameraExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCameraExtension.swift; sourceTree = "<group>"; };
 		9CE8A91D21786E7000E06D08 /* ReloadUIDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReloadUIDelegate.swift; sourceTree = "<group>"; };
 		9CF72B111B8F073400238B9A /* DKImagePickerControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKImagePickerControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CF72B141B8F073400238B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9CF72B151B8F073400238B9A /* DKImagePickerControllerDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKImagePickerControllerDemoTests.swift; sourceTree = "<group>"; };
+		A8F4C4752295C05A00F8A4AA /* CropViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CropViewController.framework; path = Carthage/Build/iOS/CropViewController.framework; sourceTree = "<group>"; };
+		A8F4C4762295C05A00F8A4AA /* DKPhotoGallery.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DKPhotoGallery.framework; path = Carthage/Build/iOS/DKPhotoGallery.framework; sourceTree = "<group>"; };
+		A8F4C4772295C05A00F8A4AA /* DKCamera.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DKCamera.framework; path = Carthage/Build/iOS/DKCamera.framework; sourceTree = "<group>"; };
+		A8F4C4782295C05A00F8A4AA /* TOCropViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TOCropViewController.framework; path = Carthage/Build/iOS/TOCropViewController.framework; sourceTree = "<group>"; };
+		A8F4C4872295C1FE00F8A4AA /* DKImagePickerController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DKImagePickerController.framework; sourceTree = "<group>"; };
 		B9EFB9931D2105A3006CDCAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -85,7 +103,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8F4C47C2295C05A00F8A4AA /* TOCropViewController.framework in Frameworks */,
 				9CD130051C144ED800AB5E2B /* Photos.framework in Frameworks */,
+				A8F4C4792295C05A00F8A4AA /* CropViewController.framework in Frameworks */,
+				A8F4C47B2295C05A00F8A4AA /* DKCamera.framework in Frameworks */,
+				A8F4C47A2295C05A00F8A4AA /* DKPhotoGallery.framework in Frameworks */,
+				A8F4C4882295C1FE00F8A4AA /* DKImagePickerController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8F4C4892295C1FE00F8A4AA /* DKImagePickerController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +127,6 @@
 			isa = PBXGroup;
 			children = (
 				9C6E94AF1F5E65800014B700 /* DKImagePickerControllerDemo */,
-				9CF72B121B8F073400238B9A /* DKImagePickerControllerDemoTests */,
 				9C35CC0019DBB00700557269 /* Products */,
 				DD9FBB21E257DD5FDCD12AEB /* Frameworks */,
 			);
@@ -184,26 +207,14 @@
 			path = ReloadUIDelegate;
 			sourceTree = "<group>";
 		};
-		9CF72B121B8F073400238B9A /* DKImagePickerControllerDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				9CF72B151B8F073400238B9A /* DKImagePickerControllerDemoTests.swift */,
-				9CF72B131B8F073400238B9A /* Supporting Files */,
-			);
-			path = DKImagePickerControllerDemoTests;
-			sourceTree = "<group>";
-		};
-		9CF72B131B8F073400238B9A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				9CF72B141B8F073400238B9A /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		DD9FBB21E257DD5FDCD12AEB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A8F4C4872295C1FE00F8A4AA /* DKImagePickerController.framework */,
+				A8F4C4752295C05A00F8A4AA /* CropViewController.framework */,
+				A8F4C4772295C05A00F8A4AA /* DKCamera.framework */,
+				A8F4C4762295C05A00F8A4AA /* DKPhotoGallery.framework */,
+				A8F4C4782295C05A00F8A4AA /* TOCropViewController.framework */,
 				B9EFB9931D2105A3006CDCAA /* UIKit.framework */,
 				9CD130041C144ED800AB5E2B /* Photos.framework */,
 			);
@@ -235,7 +246,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CF72B1B1B8F073500238B9A /* Build configuration list for PBXNativeTarget "DKImagePickerControllerDemoTests" */;
 			buildPhases = (
-				A28F95496DAC5C57D144D5AF /* [CP] Check Pods Manifest.lock */,
 				9CF72B0D1B8F073400238B9A /* Sources */,
 				9CF72B0E1B8F073400238B9A /* Frameworks */,
 				9CF72B0F1B8F073400238B9A /* Resources */,
@@ -314,27 +324,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		A28F95496DAC5C57D144D5AF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DKImagePickerControllerDemoTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		9C35CBFB19DBB00700557269 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -360,7 +349,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CF72B161B8F073400238B9A /* DKImagePickerControllerDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +508,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 85M74MVK78;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = DKImagePickerControllerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -541,6 +534,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 85M74MVK78;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = DKImagePickerControllerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -558,7 +556,10 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -580,7 +581,10 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = DKImagePickerControllerDemoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
